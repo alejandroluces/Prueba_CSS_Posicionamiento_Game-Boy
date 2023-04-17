@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.icons{
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+
+/* Contenedor principal del todo */
+.sombra {
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    background-color: rgba(253, 253, 253, 0.952);
+    height: 700px;
+    width: 500px;
+    border-radius: 50px 50px 80px ;
+    position:relative;
+    left: 30%;
+    right: auto;
+    
+
+}
+/* cajas de la parte superior Completa */
+.box-1{
+    background-color:transparent;
+     border: 1px solid #ccc;
+     position: absolute;
+     width: 100%;
+     bottom: 92.2%;
+
+    
+     
+     
+
+}
+/* cajas de la parte superior mas pequeña */
+.box-2{
+    background-color: transparent;
+    border: 2px solid #ccc;
+    position: absolute;
+    height: 7.7%;
+    width: 70%;
+    right: 15%;
+    border-top: transparent;
+    border-bottom: transparent; 
+     
+}
+
+
+/* aqui termina la parte superior */
+
+
+
+
+
+
+
+
+/* Segunda caja que contiene la pantalla */
+
+ 
+.sombra-2 {
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    background-color: rgba(116, 114, 114, 0.952);
+    height: 40%;
+    width: 70%;
+    border-radius: 15px 15px 60px ;
+    position:relative;
+    top: 13%;
+    left: 15%;
+    
+    
+
+}
+/* Raya roja y azul izquierda */
+
+.rayaroja{
+    background-color:transparent;
+     border: 1px solid #f31f1f;
+     position: absolute;
+     width: 30%;
+     top: 4%;
+     bottom: 92.2%;
+     height: 0%;
+     left: 2%;
+
+}
+.rayaazul{
+    background-color:transparent;
+    border: 2px solid #091796;
+    position: absolute;
+    width: 30%;
+    top: 6%;
+    height: 0px;
+    left: 2%;
+
+}
+
+/* Raya roja y azul derecha */
+
+
+.rayaroja-2{
+    background-color:transparent;
+     border: 1px solid #f31f1f;
+     position: absolute;
+     width: 12%;
+     top: 4%;
+     bottom: 92.2%;
+     height: 0%;
+     right: 2%;
+
+}
+.rayaazul-2{
+    background-color:transparent;
+    border: 2px solid #091796;
+    position: absolute;
+    width: 12%;
+    top: 6%;
+    height: 0px;
+    right: 2%;
+}
+
+/* texto del centro */
+
+.text{
+    background-color:transparent;
+    border: 4px solid #2bbd11;
+    height: 10%;
+    right: 17%;
+    position: absolute;
+    border: transparent;
+    
+ 
+
+}
+p{
+   
+    font-size: 60%;
+    color: black;
+}
+
+.batery{
+    border: 4px solid #f40f0f;
+    position: absolute;
+    border-radius: 50%;
+    top: 48%;
+    left: 8%;
+    
+}
+.textBateria{
+    color: black;
+    position: absolute;
+    bottom: 40%;
+    left: 3.5%;
+
+}
+
+
+/* botones cruz */
+
+
+.arribayabajo{
+    background-color:#63605d;
+    border: 3px solid #63605d;
+    position: absolute;
+    width: 10%;
+    height: 17%;
+    bottom: 25%;
+    left: 20%;
+
+}
+
+
+.izqyderecha{
+    background-color:#63605d;
+    border: 3px solid #63605d;
+    position: absolute;
+    width: 26%;
+    height: 6%;
+    bottom: 30.5%;
+    left: 12%;
+
+
+}
+
+.circle{
+    background-color:#1b1916;
+    border: 3px solid #1b1916;
+    position: absolute;
+    width: 10%;
+    height: 7%;
+    bottom: 30.5%;
+    border-radius: 50%;
+    left: 20%;
+
+}
+/* Fin del boton cruz */
+
+/* Botones A Y B */
+
+.obalo-contenedor{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 10%;
+    height: 18%;
+    bottom: 25%;
+    left: 65%;
+    transform: rotate(45deg);
+    border-radius: 25px;
+
+}
+.BotonA{
+    background-color:#e41948;
+    border: 3px solid #e41948;
+    position: absolute;
+    width: 10%;
+    height: 6.5%;
+    bottom: 27%;
+    left: 60%;
+    transform: rotate(45deg);
+    border-radius: 50%;
+
+}
+
+.BotonB{
+    background-color:#e41948;
+    border: 3px solid #e41948;
+    position: absolute;
+    width: 10%;
+    height: 6.5%;
+    bottom: 34.5%;
+    left: 70.2%;
+    transform: rotate(45deg);
+    border-radius: 50%;
+
+}
+
+/* Boton star y selec */
+
+
+.botonstar{
+    background-color:#63605d;
+    border: 3px solid #63605d;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    bottom: 7%;
+    left: 40%;
+    transform: rotate(45deg);
+    border-radius: 25px;
+
+}
+
+.botonselec{
+    background-color:#63605d;
+    border: 3px solid #63605d;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    bottom: 7%;
+    left: 55%;
+    transform: rotate(45deg);
+    border-radius: 25px;
+
+}
+
+
+/* Pantalla amarilla */
+
+.sombra-3 {
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 15px 0px rgba(197, 246, 3, 0.5);
+    background-color: rgba(234, 234, 25, 0.733);
+    height: 30%;
+    width: 50%;
+    position:absolute;
+    top: 18%;
+    left: 28%;
+    
+    
+
+}
+
+
+/* Ventilador */
+
+.ventilador1{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 2%;
+    height: 7%;
+    bottom: 2%;
+    left: 75%;
+    transform: rotate(-45deg);
+    border-radius: 25px;
+
+}
+.ventilador2{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 2%;
+    height: 7%;
+    bottom: 5%;
+    left: 79%;
+    transform: rotate(-45deg);
+    border-radius: 25px;
+
+}
+.ventilador3{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 2%;
+    height: 7%;
+    bottom: 8%;
+    left: 83%;
+    transform: rotate(-45deg);
+    border-radius: 25px;
+
+}
+.ventilador4{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 2%;
+    height: 7%;
+    bottom: 11%;
+    left: 87%;
+    transform: rotate(-45deg);
+    border-radius: 25px;
+
+}
+.ventilador5{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 2%;
+    height: 7%;
+    bottom: 14%;
+    left: 91%;
+    transform: rotate(-45deg);
+    border-radius: 25px;
+
+}
+.ventilador6{
+    background-color:#d1cfcd;
+    border: 3px solid #d1cfcd;
+    position: absolute;
+    width: 2%;
+    height: 7%;
+    bottom: 17%;
+    left: 95%;
+    transform: rotate(-45deg);
+    border-radius: 25px;
+
+}
+
+
+
+
+
+
+
